@@ -1,0 +1,300 @@
+<!--
+Author: Губин Максим и Разумов Павел
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Fitness.ai | About </title>
+
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/F.jpg" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!---start-login-script--->
+		<script type="text/javascript"src="js/jquery.min.js"></script>
+		<script src="js/login.js"></script>
+		<!---//End-login-script--->
+		<!-----768px-menu----->
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+		<link href="//fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+		<link rel="stylesheet" href="css/style1.css" type="text/css" media="all" />
+		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
+			<script type="text/javascript">
+				//	The menu on the left
+				$(function() {
+					$('nav#menu-left').mmenu();
+				});
+		</script>
+		<!-----//768px-menu----->
+	</head>
+	<body >
+
+	<div class="main-content-agile" style="background-image: url(images/zal.jpg)">
+		<div class="sub-main-w3">
+			<form action="#" method="post">
+				<h2> Введите информацию о себе</h2>
+				<div class="form-style-agile">
+					<input placeholder="Имя" name="Name" type="text" required="">
+				</div>
+				<div class="form-style-agile">
+					<input placeholder="Email" name="Email" type="email" required="">
+				</div>
+				<div class="form-style-agile">
+					<input placeholder="Номер телефона" name="Number" type="text" required="">
+				</div>
+				<div class="form-style-agile">
+					<select class="category" required="">
+						<option value="">Choose Class</option>
+						<option value="">Beginner - Open Practice</option>
+						<option value="">Cardio running workouts</option>
+						<option value="">Yoga and Pilates</option>
+						<option value="">Dharma Yoga Wheel Class</option>
+						<option value="">Group Crossfit Workout</option>
+						<option value="">Hot Power Yoga</option>
+						<option value="">Meditation</option>
+					</select>
+				</div>
+				<div class="form-style-agile">
+					<input id="datepicker" placeholder="Дата рождения" name="date" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+						   required="">
+				</div>
+				<!--<div class="form-style-agile">
+					<input type="text" id="timepicker" name="time" class="timepicker form-control" placeholder="Select Time" value="" required="">
+				</div>-->
+				<div class="form-style-agile">
+					<p><input name="мужской" type="radio" value="man">Мужской</p>
+					<p><input name="женский" type="radio" value="woman">Женский</p>
+
+				</div>
+				<div class="form-style-agile">
+					<input placeholder="Рост (м)" name="height" type="text" required="">
+				</div>
+				<div class="form-style-agile">
+					<input placeholder="Вес (кг)" name="weight" type="text" required="">
+				</div>
+				<input type="submit" value="Загрузить">
+			</form>
+		</div>
+	</div>
+	</body>
+	<!--<body>
+		&lt;!&ndash;-start-wrap&#45;&#45;&ndash;&gt;
+		&lt;!&ndash;&#45;&#45;&#45;&#45;start-768px-menu&#45;&#45;&ndash;&gt;
+			<div id="page">
+					<div id="header">
+						<a class="navicon" href="#menu-left"> </a>
+					</div>
+					<nav id="menu-left">
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="about.html">О сервисе</a></li>
+							<li><a href="features.html">Возможности</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</nav>
+			</div>
+		&lt;!&ndash;&#45;&#45;&#45;&#45;start-768px-menu&#45;&#45;&ndash;&gt;
+			&lt;!&ndash;-start-header&#45;&#45;&ndash;&gt;
+			<div class="header">
+				<div class="wrap">
+				<div class="header-left">
+					<div class="logo">
+						<a href="index.html">Fitness.ai</a>
+					</div>
+				</div>
+				<div class="header-right">
+					<div class="top-nav">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="about.html">О сервисе</a></li>
+						<li><a href="features.html">Возможности</a></li>
+					</ul>
+				</div>
+				<div class="sign-ligin-btns">
+					<ul>
+						<li id="signupContainer"><a class="signup" id="signupButton" href="#"><span><i>Зарегестрироваться</i></span></a>
+							<div class="clear"> </div>
+							<div id="signupBox">
+								<form id="signupForm">
+									<fieldset id="signupbody">
+										<fieldset>
+											<label for="email">Email адрес<span>*</span></label>
+											<input type="text" name="email" id="signupemail" />
+										</fieldset>
+										<fieldset>
+											<label for="password">Введите пароль<span>*</span></label>
+											<input type="password" name="password" id="signuppassword" />
+										</fieldset>
+										<fieldset>
+											<label for="password">Повторите пароль<span>*</span></label>
+											<input type="password" name="password" id="signuppassword1" />
+										</fieldset>
+										<input type="submit" id="signup" value="Register Now!" />
+									</fieldset>
+								</form>
+							</div>
+							&lt;!&ndash; Login Ends Here &ndash;&gt;
+						</li>
+						<li id="loginContainer"><a class="login" id="loginButton" href="#"><span><i>Войти</i></span></i></a>
+							<div class="clear"> </div>
+							<div id="loginBox">
+								<form id="loginForm">
+									<fieldset id="body">
+										<fieldset>
+											<label for="email">Email адрес</label>
+											<input type="text" name="email" id="email" />
+										</fieldset>
+										<fieldset>
+											<label for="password">Пароль</label>
+											<input type="password" name="password" id="password" />
+										</fieldset>
+										<label class="remeber" for="checkbox"><input type="checkbox" id="checkbox" />Запомнить меня</label>
+										<input type="submit" id="login" value="login" />
+									</fieldset>
+									<span><a href="#">Войти</a></span>
+								</form>
+							</div>
+							&lt;!&ndash; Login Ends Here &ndash;&gt;
+						</li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			</div>
+			&lt;!&ndash;-//End-header&#45;&#45;&ndash;&gt;
+			&lt;!&ndash;&#45;&#45;//End-banner&#45;&#45;&ndash;&gt;
+			&lt;!&ndash;&#45;&#45;start-content-&ndash;&gt;
+			<div class="content">
+					<div class="about">
+						<div class="wrap">
+							<h1>о сервисе <span>Fitness.ai</span></h1>
+							<div class="panels">
+								<div class="panel-left">
+									<span> </span>
+								</div>
+								<div class="panel-right">
+									<h3>Awesome <span>Fitness.ai</span> App!</h3>
+									<p>iOS 7 started with a desire to take an experience people love and make it better. To make it even simpler, more useful, and more enjoyable  iOS 7 started with a desire to take an experience </p>
+								</div>
+								<div class="clear"> </div>
+							</div>
+						</div>
+						&lt;!&ndash;-start-testimonials&#45;&#45;&ndash;&gt;
+						<div class="testimonials">
+							<div class="wrap">
+							<div class="testimonial-head">
+								<h1><span>Runkeeper</span> Testimonials</h1>
+								<p>Kind words from our valuable customers</p>
+							</div>
+							<div class="testimonial-grids">
+								<div class="testimonial-grid">
+									<a href="#"><img src="images/test-people1.png" alt=""></a>
+									<p>Flathost servers are having high physical security and power redundancy Your data will be secure with us.</p>
+									<a href="#">james,Envato</a>
+								</div>
+								<div class="testimonial-grid">
+									<a href="#"><img src="images/test-people2.png" alt=""></a>
+									<p>With our ultra mordern servers and optical cables, your data will be transfered to end user in milliseconds.</p>
+									<a href="#">Mariya, Activeden</a>
+								</div>
+								<div class="testimonial-grid">
+									<a href="#"><img src="images/test-people3.png" alt=""></a>
+									<p>We have a dedicated team of support for sales and support to help you in anytime. You can also chat with us.</p>
+									<a href="#">Steven, Microlancer</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+				  		</div>
+				  		&lt;!&ndash;-//End-testimonials&#45;&#45;&ndash;&gt;
+				  		&lt;!&ndash;&#45;&#45;start-clients-slider-&ndash;&gt;
+				  		<div class="clients-slider">
+						<div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul class="flexiselDemo3 nbs-flexisel-ul" style="left: -175.2px; display: block;">
+						<li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 175.2px;"><img src="images/c3.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 175.2px;"><img src="images/c4.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 175.2px;"><img src="images/c1.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 175.2px;"><img src="images/c2.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 175.2px;"><img src="images/c3.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 175.2px;"><img src="images/c4.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 175.2px;"><img src="images/c1.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 175.2px;"><img src="images/c2.png"></li></ul><div class="nbs-flexisel-nav-left" style="top: 13px;"></div><div class="nbs-flexisel-nav-right" style="top: 13px;"></div></div></div> 
+						<div class="clear"> </div>      
+							  &lt;!&ndash;-strat-image-cursuals&#45;&#45;&ndash;&gt;
+							<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+							&lt;!&ndash;-End-image-cursuals&#45;&#45;&ndash;&gt;
+							<script type="text/javascript">
+							$(window).load(function() {
+							    $(".flexiselDemo3").flexisel({
+							        visibleItems: 5,
+							        animationSpeed: 1000,
+							        autoPlay: true,
+							        autoPlaySpeed: 3000,            
+							        pauseOnHover: true,
+							        enableResponsiveBreakpoints: true,
+							        responsiveBreakpoints: { 
+							            portrait: { 
+							                changePoint:480,
+							                visibleItems: 1
+							            }, 
+							            landscape: { 
+							                changePoint:640,
+							                visibleItems: 2
+							            },
+							            tablet: { 
+							                changePoint:768,
+							                visibleItems: 3
+							            }
+							        }
+							    });
+							});
+							</script>
+						</div>
+						&lt;!&ndash;&#45;&#45;start-clients-slider-&ndash;&gt;
+					</div>
+				</div>
+				&lt;!&ndash;-start-bottom-footer-grids&#45;&#45;&ndash;&gt;
+				<div class="footer-grids">
+					<div class="wrap">
+						&lt;!&ndash;<div class="footer-grid">
+							<h3>Quick Links</h3>
+							<ul>
+								<li><a href="#">Домой</a></li>
+								<li><a href="#">О возможностях</a></li>
+								<li><a href="#">Войти</a></li>
+								<li><a href="#">Зарегистрироваться</a></li>
+							</ul>
+						</div>&ndash;&gt;
+						<div class="footer-grid">
+							<h3>Больше</h3>
+							<ul>
+								<li><a href="#">Помощь</a></li>
+								<li><a href="#">Поддержка</a></li>
+								&lt;!&ndash;<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Terms and Conditions</a></li>&ndash;&gt;
+							</ul>
+						</div>
+						&lt;!&ndash;<div class="footer-grid">
+							<h3>Connect With Us</h3>
+							<ul class="social-icons">
+								<li><a class="facebook" href="#" title="facebook"> </a></li>
+								<li><a class="twitter" href="#" title="twitter"> </a></li>
+								<li><a class="youtube" href="#" title="youtube"> </a></li>
+							</ul>
+							<p class="copy-right">Template by <a href="#">W3layouts</a></p>
+						</div>
+						<div class="footer-grid">
+							<h3>Newsletter</h3>
+							<p>Subscribe to our newsletter to keep up-to-date with all the latest news.</p>
+							<form>
+								<input type="text" class="text" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}">
+								<input type="text" class="text" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}">
+								<input type="submit" value="subscribe" />
+							</form>
+						</div>&ndash;&gt;
+						<div class="clear"> </div>
+					</div>
+				</div>
+				&lt;!&ndash;-//End-bottom-footer-grids&#45;&#45;&ndash;&gt;
+			</div>
+			&lt;!&ndash;&#45;&#45;//End-content-&ndash;&gt;
+		&lt;!&ndash;-//End-wrap&#45;&#45;&ndash;&gt;
+	</body>-->
+</html>
+
